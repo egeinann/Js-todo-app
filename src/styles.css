@@ -1,0 +1,25 @@
+/* Body genel stilleri */
+body {
+  background-color: #f0f2f5;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Kart bileşeni stilleri */
+.card {
+  border: none;
+  border-radius: 15px;
+  transition: transform 0.2s;
+}
+
+/* Hover efekti */
+.card:hover {
+  transform: translateY(-5px);
+}
+
+/* Liste öğesi stilleri */
+.list-group-item {
+  border-radius: 10px !important;
+  margin-bottom: 10px;
+  border: none;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
