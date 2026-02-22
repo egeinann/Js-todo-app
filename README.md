@@ -1,70 +1,55 @@
-# Getting Started with Create React App
+# React CRUD Todo App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Modern web geliştirme tekniklerini kullanarak geliştirilmiş bir Todo uygulaması. ReactJS ve Bootstrap 5 ile hazırlanmıştır ve kullanıcıların görev ekleme, düzenleme, silme ve listeleme işlemlerini kolayca yapabilmesini sağlar.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## Özellikler
+- Görev ekleme, düzenleme ve silme
+- Listeleme ve durum takibi
+- React state yönetimi ile gerçek zamanlı güncellemeler
+- Bootstrap 5 ile şık ve modern tasarım
+- Responsive ve kullanıcı dostu arayüz
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Teknolojiler
+- ReactJS – Kullanıcı arayüzü oluşturmak için
+- Bootstrap 5 – Tasarım ve stil için
+- JavaScript – Fonksiyonellik ve state yönetimi için
+- CSS – Özel stiller ve hover efektleri için
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## Kurulum ve Çalıştırma
+1. Repo klonlanır: `git clone <repo-linki>`
+2. Gerekli paketler yüklenir: `npm install`
+3. Uygulama başlatılır: `npm start`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Uygulama `http://localhost:3000` adresinde çalışacaktır.
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Kullanım
+- Görev eklemek için input alanına metin yazıp **Ekle** butonuna basın.
+- Mevcut bir görevi düzenlemek için **Düzenle** butonuna basın ve değişiklikleri kaydedin.
+- Görevleri silmek için **Sil** butonunu kullanın.
+- Üst kısımdaki istatistik kartları toplam görev sayısını, durumunu ve versiyonu gösterir.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Proje Yapısı
+- components/ – Header, TodoForm ve TodoItem bileşenleri
+- pages/ – Ana sayfa bileşeni
+- Interfaces/ – Todo objesi tanımı
+- App.js – Uygulamanın ana bileşeni ve state yönetimi
+- index.js – React uygulamasının başlatılması
+- styles.css – Genel stiller ve kart/liste tasarımları
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Geliştirme Notları
+- State yönetimi tamamen React `useState` hook’u ile yapılmıştır.
+- Bootstrap 5 kullanılarak responsive ve modern bir tasarım sağlanmıştır.
+- Todo öğeleri listeye eklenirken ve silinirken gerçek zamanlı olarak güncellenir.
+- Düzenleme fonksiyonu seçilen todo’yu input alanına yerleştirir ve güncelleme sonrası inputu temizler.
