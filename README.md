@@ -5,6 +5,8 @@ Modern web geliştirme tekniklerini kullanarak geliştirilmiş bir Todo uygulama
 ---
 
 **🔗 Canlı Uygulama Linki:** [https://exquisite-stardust-1eb05c.netlify.app/](https://exquisite-stardust-1eb05c.netlify.app/)
+veya açılmıyorsa
+(http://exquisite-stardust-1eb05c.netlify.app/)
 
 ---
 
