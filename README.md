@@ -4,6 +4,10 @@ Modern web geliştirme tekniklerini kullanarak geliştirilmiş bir Todo uygulama
 
 ---
 
+**🔗 Canlı Uygulama Linki:** [https://exquisite-stardust-1eb05c.netlify.app/](https://exquisite-stardust-1eb05c.netlify.app/)
+
+---
+
 ## Özellikler
 - Görev ekleme, düzenleme ve silme
 - Listeleme ve durum takibi
